@@ -6,6 +6,12 @@ The adaptor is designed to fit a 2.5" HDD into a 3.5" HDD slot. Sliders could be
 
 The model is parametric and can be adjusted to fit other cases.
 
+The latest version of this design could be found on:
+
+Github: https://github.com/nomike/HDD-adaptor
+Thingiverse: https://www.thingiverse.com/thing:6282650
+Printables: https://www.printables.com/model/626664-parametrizable-hdd-adaptor-25-35-with-optional-sli
+
 ## Print settings
 
 Infill: 10%
