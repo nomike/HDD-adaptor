@@ -45,7 +45,7 @@ cutout3_width2 = 34;
 drive_hole_x_offset = 3.9 + (cutout3_length1 / 2);
 drive_hole_x_spacing = 4.5;
 
-fn = 21; // The number of facets for the cylinders. 21 should be fine. More just increases the print time and filament usage.
+$fn = 21; // The number of facets for the cylinders. 21 should be fine. More just increases the print time and filament usage.
 
 // == constants - if you change them, the adaptor will probably not fit anymore ==
 width = 101.6; // 4 inches; see https://en.wikipedia.org/wiki/List_of_disk_drive_form_factors#List
@@ -129,7 +129,7 @@ union() {
         for(x_offset = [39, 102]){
             for(y_offset = [0, width - wall_width]) {
                 translate([x_offset + (drive_hole_diameter / 2), y_offset + wall_width / 2, 0]) cylinder(h=_heigth, d=drive_hole_diameter);
-                translate([x_offset + (drive_hole_diameter / 2), y_offset + wall_width / 2, 0]) cylinder(fn=6, h=connecting_nut_heigth, d=connecting_nut_diameter);
+                translate([x_offset + (drive_hole_diameter / 2), y_offset + wall_width / 2, 0]) cylinder($fn=6, h=connecting_nut_heigth, d=connecting_nut_diameter);
                 translate([x_offset + (drive_hole_diameter / 2), y_offset + wall_width / 2, _heigth - connecting_screwhead_heigth]) cylinder(h=connecting_screwhead_heigth, d=connecting_screwhead_diameter);
             }
         }
