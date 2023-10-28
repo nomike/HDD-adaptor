@@ -63,7 +63,7 @@ big_slider_big_diameter = 12;
 big_slider_small_heigth = 4.7;
 big_slider_big_heigth = 2.5;
 
-big_slider_offset = 7.4 + (big_slider_big_diameter / 2);
+big_slider_offset = 9.7 + (big_slider_big_diameter / 2);
 big_slider_distance = 88.6;
 
 small_slider_diameter = 6.9;
