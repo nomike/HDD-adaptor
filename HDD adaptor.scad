@@ -27,7 +27,7 @@ sliders = "small"; // "big", small", or "none"
 bed_heigth = 2; // Adds further stability but also increases the height of the adaptor. 2mm should be fine.
 wall_width = 7; // 7mm should be fine. More just increases the print time and filament usage.
 
-drive_connecting_screwhead_heigth = 2; // The heigth of the screwhead of the drive. Only relevant if you want to stack another adaptor on top of this one.
+drive_connecting_screwhead_heigth = 2.5; // The heigth of the screwhead of the drive. Only relevant if you want to stack another adaptor on top of this one.
 
 // Cutout at the connector side of the drive. Saves material and print time and allows access to the connector.
 cutout1_length = 45;
