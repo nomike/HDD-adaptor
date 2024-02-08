@@ -8,9 +8,9 @@ out:
 	mkdir -p out
 
 build-stl: out
-	for drive_heigth in 5 7 9.5 12.5 15 19 ; do \
+	for drive_height in 5 7 9.5 12.5 15 19 ; do \
 		for sliders in small big none ; do \
-		   openscad -o out/$${drive_heigth}mm-$${sliders}-sliders-HDD\ adaptor.stl -D drive_heigth=$$drive_heigth -D sliders=\"$$sliders\" HDD\ adaptor.scad ; \
+		   openscad -o out/$${drive_height}mm-$${sliders}-sliders-HDD\ adaptor.stl -D drive_height=$$drive_height -D sliders=\"$$sliders\" HDD\ adaptor.scad ; \
 		done ; \
 	done
 
