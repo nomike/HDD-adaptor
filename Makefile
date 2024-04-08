@@ -1,18 +1,15 @@
-SHELL := /bin/bash
+# Output directory for generated STL files
+OUTPUT_DIR = output
 
-default: build-stl
+.PHONY: all generate_stls clean
 
-.PHONY: build-stl clean
+all: $(OUTPUT_DIR) generate_stls
 
-out:
-	mkdir -p out
+$(OUTPUT_DIR):
+	mkdir -p $@
 
-build-stl: out
-	for drive_height in 5 7 9.5 12.5 15 19 ; do \
-		for sliders in small big none ; do \
-		   openscad -o out/$${drive_height}mm-$${sliders}-sliders-HDD\ adaptor.stl -D drive_height=$$drive_height -D sliders=\"$$sliders\" HDD\ adaptor.scad ; \
-		done ; \
-	done
+generate_stls:
+	openscad_stl_file_generator/generate_stls --output-dir="$(OUTPUT_DIR)"
 
 clean:
-	rm -rf out
+	rm -rf $(OUTPUT_DIR)
