@@ -23,7 +23,7 @@ drive_height = 7; // The height of the drive in mm. Only relevant if you want to
 
 sliders = "small"; // "big", small", or "none"
 
-// == further twekable variables - won't harm the adaptor if you change them, but you probably don't need to ==
+// == further tweakable variables - won't harm the adaptor if you change them, but you probably don't need to ==
 bed_height = 2; // Adds further stability but also increases the height of the adaptor. 2mm should be fine.
 wall_width = 7; // 7mm should be fine. More just increases the print time and filament usage.
 
