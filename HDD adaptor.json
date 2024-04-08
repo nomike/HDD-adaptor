@@ -1,0 +1,77 @@
+{
+    "parameterSets": {
+        "5 mm - no sliders": {
+            "drive_height": "7",
+            "sliders": "none"
+        },
+        "7 mm - no sliders": {
+            "drive_height": "7",
+            "sliders": "none"
+        },
+        "9.5 mm - no sliders": {
+            "drive_height": "9.5",
+            "sliders": "none"
+        },
+        "12.5 mm - no sliders": {
+            "drive_height": "12.5",
+            "sliders": "none"
+        },
+        "15 mm - no sliders": {
+            "drive_height": "15.0",
+            "sliders": "none"
+        },
+        "19 mm - no sliders": {
+            "drive_height": "19",
+            "sliders": "none"
+        },
+        "5 mm - small sliders": {
+            "drive_height": "7",
+            "sliders": "small"
+        },
+        "7 mm - small sliders": {
+            "drive_height": "7",
+            "sliders": "small"
+        },
+        "9.5 mm - small sliders": {
+            "drive_height": "9.5",
+            "sliders": "small"
+        },
+        "12.5 mm - small sliders": {
+            "drive_height": "12.5",
+            "sliders": "small"
+        },
+        "15 mm - small sliders": {
+            "drive_height": "15.0",
+            "sliders": "small"
+        },
+        "19 mm - small sliders": {
+            "drive_height": "19",
+            "sliders": "small"
+        },
+        "5 mm - big sliders": {
+            "drive_height": "7",
+            "sliders": "big"
+        },
+        "7 mm - big sliders": {
+            "drive_height": "7",
+            "sliders": "big"
+        },
+        "9.5 mm - big sliders": {
+            "drive_height": "9.5",
+            "sliders": "big"
+        },
+        "12.5 mm - big sliders": {
+            "drive_height": "12.5",
+            "sliders": "big"
+        },
+        "15 mm - big sliders": {
+            "drive_height": "15.0",
+            "sliders": "big"
+        },
+        "19 mm - big sliders": {
+            "drive_height": "19",
+            "sliders": "big"
+        }
+    },
+    "fileFormatVersion": "1"
+}
