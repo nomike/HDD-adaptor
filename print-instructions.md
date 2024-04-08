@@ -1,5 +1,3 @@
-## Print settings
-
 Infill: 10%
 Supports: no
 Rafts: no
